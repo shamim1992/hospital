@@ -126,7 +126,7 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <a>Home <span>/</span></a>
             </li>
             <li>
               <details>
@@ -181,8 +181,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <button className="btn bg-blue-400">Donation button</button>
+        <div className="navbar-end pr-10">
+          <button className="donation-btn btn bg-blue-400 px-9 text-white">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
