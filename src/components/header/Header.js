@@ -20,7 +20,6 @@ const Header = () => {
         </div>
         <div className="right-top-header">
           <ul className="flex justify-center items-center gap-3 ">
-            {/* <li className="btn btn-sm bg-base-100 hover:bg-green-500 hover:text-white rounded-2xl "><FaWhatsapp /></li> */}
             <li className="btn btn-sm bg-base-500 hover:bg-blue-500 hover:text-white rounded-2xl cursor-pointer">
               <FaFacebook />
             </li>
@@ -40,6 +39,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
+
       {/* Main Menu start */}
 
       <div className="navbar ">
@@ -181,8 +181,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end pr-10">
-          <button className="donation-btn btn bg-blue-400 px-9 text-white">Donation</button>
+        <div className="navbar-end donation-btn">
+          <button className="   sm:px-2 lg:px-9 text-white sm:btn-sm ">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
