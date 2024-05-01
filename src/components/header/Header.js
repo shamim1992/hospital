@@ -182,7 +182,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="donation-btn">Donation</a>
+          <a className="donation-btn  bg-blue-400">Donation</a>
         </div>
       </div>
       {/* Main menu end */}
