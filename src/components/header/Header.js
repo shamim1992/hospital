@@ -27,11 +27,11 @@ const Header = () => {
             <li className="btn btn-sm bg-base-100 hover:bg-blue-500 hover:text-white rounded-2xl cursor-pointer">
               <FaLinkedin />
             </li>
-            <li className="btn btn-sm bg-base-500 hover:bg-black hover:text-white rounded-2xl cursor-pointer">
+            <li className="btn btn-sm bg-base-100 hover:bg-black hover:text-white rounded-2xl cursor-pointer">
               <FaTwitter />
             </li>
             <li className="flex items-center">
-              <select className="select  w-full max-w-xs text-xs">
+              <select className=" w-full max-w-xs text-xs">
                 <option>English</option>
                 <option>Japanese</option>
                 <option>Italian</option>
@@ -42,7 +42,7 @@ const Header = () => {
       </div>
       {/* Main Menu start */}
 
-      <div className="navbar bg-base-100 shadow-md">
+      <div className="navbar ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
