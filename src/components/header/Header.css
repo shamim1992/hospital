@@ -1,0 +1,27 @@
+.donation-btn {
+    background-color: #1C75BC !important;
+    width: 180.52px;
+    height: 41px;
+    top: 73.5px;
+    left: 1648.48px;
+    padding: 9.5px 25px 10.5px 25px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    color: #F5F8FD;
+    margin-right: 20px;
+  }
+  @media (max-width: 768px)  {
+    .donation-btn {
+      background-color: #1C75BC;
+      width: 100.52px;
+      height: 41px;
+      top: 73.5px;
+      left: 1648.48px;
+      gap: 0px;
+      opacity: 0px;
+      text-align: center;
+      color: #F5F8FD;
+    
+    }
+  }

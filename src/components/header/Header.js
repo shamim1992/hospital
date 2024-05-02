@@ -1,4 +1,5 @@
 import React from "react";
+import './Header.css'
 
 import {
   FaFacebook,
@@ -65,7 +66,67 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-                <li>
+              <li>
+                <a>Home</a>
+              </li>
+              <li>
+                <details>
+                  <summary>About</summary>
+                  <ul className="p-2">
+                    <li>
+                      <a>Submenu 1</a>
+                    </li>
+                    <li>
+                      <a>Submenu 2</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>What We Do</summary>
+                  <ul className="p-2">
+                    <li>
+                      <a>Submenu 1</a>
+                    </li>
+                    <li>
+                      <a>Submenu 2</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Activities</summary>
+                  <ul className="p-2">
+                    <li>
+                      <a>Submenu 1</a>
+                    </li>
+                    <li>
+                      <a>Submenu 2</a>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <a>Gallery</a>
+              </li>
+              <li>
+                <a>Career</a>
+              </li>
+              <li>
+                <a>Resources</a>
+              </li>
+              <li>
+                <a>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a className="btn btn-ghost text-xl">Hospital</a>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          {/* <div className="menu menu-horizontal px-1">
+            <li>
               <a>Home</a>
             </li>
             <li>
@@ -119,70 +180,21 @@ const Header = () => {
             <li>
               <a>Contact</a>
             </li>
-          </ul>
+          </div> */}
+          <div className="flex gap-3 px-4 items-center ">
+            <div><a href="">Home</a></div><span className="text-xl">/</span>
+            <div><a href="">About</a></div><span className="text-xl">/</span>
+            <div><a href="">What we do</a></div><span className="text-xl">/</span>
+            <div><a href="">Activities</a></div><span className="text-xl">/</span>
+            <div><a href="">Gallery</a></div><span className="text-xl">/</span>
+            <div><a href="">Career</a></div><span className="text-xl">/</span>
+            <div><a href="">Resources</a></div><span className="text-xl">/</span>
+            <div><a href="">Contact</a></div>
+
           </div>
-          <a className="btn btn-ghost text-xl">Hospital</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home <span>/</span></a>
-            </li>
-            <li>
-              <details>
-                <summary>About</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <details>
-                <summary>What We Do</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <details>
-                <summary>Activities</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <a>Gallery</a>
-            </li>
-            <li>
-              <a>Career</a>
-            </li>
-            <li>
-              <a>Resources</a>
-            </li>
-            <li>
-              <a>Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div className="navbar-end donation-btn">
-          <button className="   sm:px-2 lg:px-9 text-white sm:btn-sm ">Donation</button>
+        <div className="navbar-end donation-btn text-center">
+          <button className="sm:px-2 lg:px-9 text-white  sm:btn-sm ">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
