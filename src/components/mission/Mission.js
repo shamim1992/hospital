@@ -47,14 +47,14 @@ const Mission = () => {
                 </div>
             </div>
             {/* About Us */}
-            <div className='flex justify-center my-5 items-center lg:px-24'>
-                <div className='flex-1'>
+            <div className='flex flex-col md:flex-row justify-center my-5 items-center lg:px-24'>
+                <div className='flex-1 p-6'>
                     <img src="https://apiphysio.chanrericr.com/uploads/1714639394092-doctor.png" className='shadow-lg' alt="Doctor" />
                 </div>
-                <div className='flex-1'>
-                    <h1 className='md:text-2xl font-bold py-4'>About Us</h1>
+                <div className='flex-1 p-6'>
+                    <h1 className='text-lg md:text-2xl font-bold py-4'>About Us</h1>
                     <p className='py-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos debitis sunt tempore possimus velit quidem dolorum maiores. Voluptate, incidunt doloribus vitae vel illo blanditiis ratione. Architecto, culpa. Necessitatibus, sit beatae?</p>
-                    <button className='btn bg-blue-400 '>More About</button>
+                    <button className='btn bg-blue-400 text-white '>More About</button>
                 </div>
 
             </div>
