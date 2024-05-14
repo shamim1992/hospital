@@ -1,24 +1,23 @@
-.hero-section{
+.hero-section {
     background-image: url('../../../public/hero.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .hero-text {
     background-color: #2a7dc1ae;
 }
-.hero-bottom{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+.hero-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-   color: white;
+    color: white;
     height: 100px;
     background-color: #1C75BC;
-  
-font-size: 25px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0.5px;
-text-align: center;
-
+    font-weight: 700;
+    /* line-height: 50px;
+    letter-spacing: 0.5px; */
+    text-align: center;
 }
