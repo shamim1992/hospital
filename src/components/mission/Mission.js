@@ -69,11 +69,12 @@ const Mission = () => {
 
             </div>
             <div>
-                <div className="hidden lg:flex eclipse h-64 w-64  rounded-full absolute top-[1500px] -right-20">
+                <div className="hidden lg:flex eclipse h-64 w-64 rounded-full absolute top-[1500px] right-0">
                     <div className="h-64 w-64 rounded-full absolute top-0 left-0">
-                    <Image src={missionphoto} alt=""  className='h-32 w-32'/>
+                        <Image src={missionphoto} alt="" className='h-20 lg:h-20 w-20 lg:w-20 -right-16 ' />
                     </div>
                 </div>
+
 
             </div>
         </div>
