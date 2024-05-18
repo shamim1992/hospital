@@ -7,8 +7,8 @@ const BlogList = () => {
         <div>
             <div>
                 <div className='py-10'>
-                    <h1 className='text-3xl font-bold text-center py-4'>From our blog list Latest News</h1>
-                    <p className='max-w-xl text-xs text-center mx-auto'>Our doctors include highly qualified male and female practitioners who come from a range of backgrounds and
+                    <h1 className='text-3xl font-bold text-center py-4 px-10'>From our blog list Latest News</h1>
+                    <p className='max-w-xl text-xs text-center mx-auto px-6'>Our doctors include highly qualified male and female practitioners who come from a range of backgrounds and
                         bring a diversity of skills.</p>
                 </div>
 
