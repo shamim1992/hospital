@@ -187,7 +187,7 @@ const Header = () => {
           </div> */}
           <div className="flex gap-3 px-4 items-center ">
             <div><a href="">Home</a></div><span className="text-xl">/</span>
-            <div><a href="">About</a></div><span className="text-xl">/</span>
+            <div><a href="/about">About</a></div><span className="text-xl">/</span>
             <div><a href="">What we do</a></div><span className="text-xl">/</span>
             <div><a href="">Activities</a></div><span className="text-xl">/</span>
             <div><a href="">Gallery</a></div><span className="text-xl">/</span>
