@@ -3,7 +3,7 @@ import './AboutAccordion.css'
 
 const AboutAccordion = () => {
     return (
-        <div className="about-accordion px-5 sm:px-8 lg:px-24">
+        <div className="about-accordion px-5 sm:px-20 lg:px-24 min-h-80vh">
         <div>
           <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center py-4 sm:py-6 lg:py-8">More About Us</h1>
         </div>

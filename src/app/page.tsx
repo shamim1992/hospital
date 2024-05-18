@@ -3,6 +3,7 @@ import Mission from '@/components/mission/Mission';
 import Achievements from '@/components/acievements/Achievements';
 import AboutAccordion from '@/components/aboutAccordion/AboutAccordion';
 import Bhag from '@/components/bhag/Bhag';
+import BlogList from '@/components/blogList/BlogList';
 export default function Home() {
   return (
     <main className="">
@@ -10,6 +11,7 @@ export default function Home() {
     <Achievements/>
     <AboutAccordion/>
     <Bhag/>
+    <BlogList/>
     </main>
   );
 }
