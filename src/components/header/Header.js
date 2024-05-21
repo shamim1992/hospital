@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import './Header.css'
+// import './Header.css'
 
 import {
   FaFacebook,
@@ -197,7 +197,7 @@ const Header = () => {
           </div>
         </div>
         <div className="lg:flex  sm:block navbar-end donation-btn text-center">
-          <button className="sm:px-2 lg:px-9 text-white sm:btn-sm">Donation</button>
+          <button className="sm:px-2 bg-blue-500 lg:px-9 text-white btn-sm">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
