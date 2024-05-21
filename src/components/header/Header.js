@@ -196,7 +196,7 @@ const Header = () => {
             <div><a href="">Contact</a></div>
           </div>
         </div>
-        <div className="lg:flex hidden sm:block navbar-end donation-btn text-center">
+        <div className="lg:flex  sm:block navbar-end donation-btn text-center">
           <button className="sm:px-2 lg:px-9 text-white sm:btn-sm">Donation</button>
         </div>
       </div>
