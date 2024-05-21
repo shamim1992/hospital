@@ -122,8 +122,8 @@ const Header = () => {
                 <a>Contact</a>
               </li>
               <li>
-              <button className="btn sm:px-2 lg:px-9 text-white  sm:btn-sm bg-blue-500">Donation</button>
-            </li>
+                <button className="btn sm:px-2 lg:px-9 text-white  sm:btn-sm bg-blue-500">Donation</button>
+              </li>
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">Hospital</a>
@@ -194,12 +194,10 @@ const Header = () => {
             <div><a href="">Career</a></div><span className="text-xl">/</span>
             <div><a href="">Resources</a></div><span className="text-xl">/</span>
             <div><a href="">Contact</a></div>
-            
-
           </div>
         </div>
-        <div className="navbar-end donation-btn text-center hidden lg:flex">
-          <button className="sm:px-2 lg:px-9 text-white  sm:btn-sm ">Donation</button>
+        <div className="lg:flex hidden sm:block navbar-end donation-btn text-center">
+          <button className="sm:px-2 lg:px-9 text-white sm:btn-sm">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
