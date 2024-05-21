@@ -1,8 +1,10 @@
 'use client'
-import React from "react";
+import React, { useEffect } from "react";
 // import './Header.css'
 import Image from "next/image";
 import logo1 from "../../assets/logo1.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import {
   FaFacebook,
@@ -12,6 +14,11 @@ import {
 } from "react-icons/fa";
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  },[])
   return (
     <div>
       <div className="top-header hidden lg:flex justify-between items-center px-10 py-3">
@@ -128,7 +135,7 @@ const Header = () => {
               </li> */}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl"><Image src={logo1} alt="logo" className="w-52 lg:h-12 lg:w-72" /></a>
+          <a className="btn btn-ghost text-xl"><Image src={logo1} alt="logo" className="w-44 lg:h-12 lg:w-72" /></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           {/* <div className="menu menu-horizontal px-1">

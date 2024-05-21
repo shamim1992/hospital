@@ -18,7 +18,7 @@ const Mission = () => {
             </div>
             <div className='mission-section px-4 lg:px-32 mt-28 '>
                 <div className='mission-card-wrapper flex flex-col lg:flex-row justify-center flex-wrap gap-3 text-gray-200 lg:px-10'>
-                    <div className='mission-card flex-1 p-4   rounded-lg'>
+                    <div className='mission-card flex-1 p-4   rounded-lg '>
                         <div className=' '><TbTargetArrow className='h-14 w-14' /></div>
                         <h1 className='md:text-lg font-bold py-4'>Mission</h1>
                         <p>Providing affordable and accessible diagnostic and healthcare services to the people in India</p>

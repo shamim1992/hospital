@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeroSection.css'
 import Mission from '../mission/Mission'
-
+import 'animate.css';
 const HeroSection = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const HeroSection = () => {
           <button className='btn'>Learn More</button>
       </div>
       <div className='hero-bottom mb-20 '>
-        <h1 className='sm:text-lg md:text-2xl'>Foundation for Advancement of Essential Diagnostics (FAED)</h1>
+        <h1 className='sm:text-lg md:text-2xl '>Foundation for Advancement of Essential Diagnostics (FAED)</h1>
       </div>
     </div>
     <Mission/>
