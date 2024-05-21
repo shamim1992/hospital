@@ -197,7 +197,7 @@ const Header = () => {
           </div>
         </div>
         <div className="lg:flex  sm:block navbar-end donation-btn text-center">
-          <button className="sm:px-2 bg-blue-500 lg:px-9 text-white btn-sm">Donation</button>
+          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm lg:mx-auto">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
