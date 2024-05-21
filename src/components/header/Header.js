@@ -20,7 +20,7 @@ const Header = () => {
     });
   },[])
   return (
-    <div>
+    <div className="sticky top-0 z-50 shadow-md">
       <div className="top-header hidden lg:flex justify-between items-center px-10 py-3">
         <div className="left-top-header">
           <ul className="flex justify-between items-center text-xs font-semibold">
@@ -53,7 +53,7 @@ const Header = () => {
 
       {/* Main Menu start */}
 
-      <div className="navbar ">
+      <div className="navbar  bg-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -135,7 +135,7 @@ const Header = () => {
               </li> */}
             </ul>
           </div>
-          <a className=""><Image src={logo1} alt="logo" className="w-60 h-8 lg:h-12 lg:w-72" /></a>
+          <a className=""><Image src={logo1} alt="logo" className="w-full h-9 lg:h-12 lg:w-72 " /></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           {/* <div className="menu menu-horizontal px-1">

@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='w-full bg-white text-sm lg:text-md p-2  lg:p-6 '>
-                    <p>Copyright © 2021 All rights reserved | Lorem Ipsum </p>
+                    <p>Copyright © 2021 All rights reserved </p>
                 </div>
             </div>
 
