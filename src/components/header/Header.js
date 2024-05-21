@@ -135,7 +135,7 @@ const Header = () => {
               </li> */}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl"><Image src={logo1} alt="logo" className="w-44 lg:h-12 lg:w-72" /></a>
+          <a className=""><Image src={logo1} alt="logo" className="w-52 h-8 lg:h-12 lg:w-72" /></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           {/* <div className="menu menu-horizontal px-1">
