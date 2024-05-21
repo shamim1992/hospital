@@ -6,14 +6,14 @@ const BlogList = () => {
     return (
         <div>
             <div>
-                <div className='py-10'>
+                <div className='py-10' data-aos="fade-up">
                     <h1 className='text-3xl font-bold text-center py-4 px-10'>From our blog list Latest News</h1>
                     <p className='max-w-xl text-xs text-center mx-auto px-6'>Our doctors include highly qualified male and female practitioners who come from a range of backgrounds and
                         bring a diversity of skills.</p>
                 </div>
 
                 <div className='mx-auto my-8 flex flex-col lg:flex-row px-6 lg:px-36 gap-2'>
-                    <div className="card bg-base-100 shadow-md">
+                    <div className="card bg-base-100 shadow-md" data-aos="fade-up">
                         <figure><Image src={blogImage} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h3 className='relative -top-12 w-32 p-2 bg-white text-sm'>17th May 2024</h3>
@@ -39,7 +39,7 @@ const BlogList = () => {
 
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-md">
+                    <div className="card bg-base-100 shadow-md" data-aos="fade-up">
                         <figure><Image src={blogImage} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h3 className='relative -top-12 w-32 p-2 bg-white text-sm'>17th May 2024</h3>
@@ -65,7 +65,7 @@ const BlogList = () => {
 
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-md">
+                    <div className="card bg-base-100 shadow-md" data-aos="fade-up">
                         <figure><Image src={blogImage} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h3 className='relative -top-12 w-32 p-2 bg-white text-sm'>17th May 2024</h3>

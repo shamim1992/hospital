@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaDribbble} from "react
 
 const Footer = () => {
     return (
-        <div className='flex-col flex lg:flex-row bg-base-200'>
+        <div className='flex-col flex lg:flex-row bg-base-200' data-aos="fade-up">
             <div className='w-full lg:w-96 flex-col flex h-96 bg-[#1C75BC] p-10 text-white'>
                 <Image src={logo} alt='logo' className='w-full pr-5 py-5' />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente facere labore ex similique harum ullam, tempora vitae ipsa ipsum quod id, odio quia quibusdam non porro magnam cupiditate beatae?</p>

@@ -10,13 +10,13 @@ const Achievements = () => {
   return (
     <div className='bg-[#F5F8FD] min-h-screen pb-20 '>
 
-      <h1 className='lg:text-2xl font-bold py-10 text-center'>Our Achievements </h1>
+      <h1 className='lg:text-2xl font-bold py-10 text-center' data-aos="fade-up">Our Achievements </h1>
 
       <div className='flex flex-col lg:flex-row px-4 lg:px-32 gap-6 mb-20'>
-        <div className='flex-1'>
+        <div className='flex-1' data-aos="fade-up">
           <Image src={achievementImg} alt="Achievements" className='h-80 lg:h-96 w-full lg:w-96 rounded-lg float-end' />
         </div>
-        <div className='flex-1 flex flex-wrap gap-4 justify-center py-6 lg:py-14 lg:pr-20'>
+        <div className='flex-1 flex flex-wrap gap-4 justify-center py-6 lg:py-14 lg:pr-20' data-aos="fade-up">
           <div className='flex flex-col items-center justify-between h-36 lg:h-36 w-36 lg:w-36 bg-white shadow-md rounded-lg'>
             <div className='flex items-center justify-center h-20 w-20 my-4 rounded-full bg-[#1C75BC] mx-auto'>
               <FaDesktop className='text-white h-8 w-8' />
@@ -59,14 +59,14 @@ const Achievements = () => {
 
 
       {/* Our expertise */}
-      <div className='md:py-14 lg:mx-52 flex flex-col md:flex-row justify-center items-center bg-[#1C75BC] rounded-lg flex-wrap'>
-        <div className='flex-1 '>
+      <div data-aos="fade-up" className='md:py-14 lg:mx-52 flex flex-col md:flex-row justify-center items-center bg-[#1C75BC] rounded-lg flex-wrap'>
+        <div className='flex-1 ' data-aos="fade-up">
           <h1 className='sm:text-2xl md:text-4xl font-bold float-end px-20 text-white py-6'>Our Expertise
             <div className="border-b-2 border-gray-300 w-[80%]"></div>
           </h1>
 
         </div>
-        <div className='flex-1  '>
+        <div className='flex-1  ' data-aos="fade-up">
           <div className="carousel carousel-center max-w-lg p-4 space-x-4  rounded-box">
             <div className="carousel-item">
               <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box h-36 w-36" />
