@@ -1,6 +1,8 @@
 'use client'
 import React from "react";
 // import './Header.css'
+import Image from "next/image";
+import logo1 from "../../assets/logo1.png";
 
 import {
   FaFacebook,
@@ -126,7 +128,7 @@ const Header = () => {
               </li> */}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Hospital</a>
+          <a className="btn btn-ghost text-xl"><Image src={logo1} alt="logo" className="w-52 lg:h-12 lg:w-72" /></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           {/* <div className="menu menu-horizontal px-1">
@@ -185,7 +187,7 @@ const Header = () => {
               <a>Contact</a>
             </li>
           </div> */}
-          <div className="flex gap-3 px-4 items-center ">
+          <div className="flex gap-2 px-4 items-center float-end">
             <div><a href="">Home</a></div><span className="text-xl">/</span>
             <div><a href="/about">About</a></div><span className="text-xl">/</span>
             <div><a href="">What we do</a></div><span className="text-xl">/</span>
@@ -196,8 +198,8 @@ const Header = () => {
             <div><a href="">Contact</a></div>
           </div>
         </div>
-        <div className="lg:flex  sm:block navbar-end donation-btn text-center">
-          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm lg:mx-auto">Donation</button>
+        <div className="lg:flex  sm:block navbar-end donation-btn text-center px-3 ">
+          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm">Donation</button>
         </div>
       </div>
       {/* Main menu end */}
