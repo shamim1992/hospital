@@ -8,17 +8,11 @@ import { IoMan } from "react-icons/io5";
 import { Ri24HoursLine } from "react-icons/ri";
 const Achievements = () => {
   return (
-    <div className='bg-[#F5F8FD] min-h-screen'>
-      {/* <div className=''>
-        <div className="hidden lg:flex eclipse h-64 w-64  border-2 border-blue-500 rounded-full absolute top-[1860px]  -right-40 overflow-hidden">
-          <div className="h-64 w-64 rounded-full absolute top-0 right-0 overflow-hidden">
-            <div className="h-48 w-48 bg-blue-500 rounded-full absolute top-8 right-8 overflow-hidden"></div>
-          </div>
-        </div>
-      </div> */}
+    <div className='bg-[#F5F8FD] min-h-screen pb-20 '>
+
       <h1 className='lg:text-2xl font-bold py-10 text-center'>Our Achievements </h1>
 
-      <div className='flex flex-col lg:flex-row px-4 lg:px-32 gap-6'>
+      <div className='flex flex-col lg:flex-row px-4 lg:px-32 gap-6 mb-20'>
         <div className='flex-1'>
           <Image src={achievementImg} alt="Achievements" className='h-80 lg:h-96 w-full lg:w-96 rounded-lg float-end' />
         </div>
@@ -97,7 +91,6 @@ const Achievements = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
