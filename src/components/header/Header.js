@@ -121,9 +121,9 @@ const Header = () => {
               <li>
                 <a>Contact</a>
               </li>
-              <li>
+              {/* <li>
                 <button className="btn sm:px-2 lg:px-9 text-white  sm:btn-sm bg-blue-500">Donation</button>
-              </li>
+              </li> */}
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">Hospital</a>
