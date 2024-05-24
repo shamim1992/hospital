@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import achievementImg from '../../assets/achievements.jpeg'
 import { FaDesktop } from "react-icons/fa";
@@ -7,6 +8,21 @@ import { FaChessKing } from "react-icons/fa";
 import { IoMan } from "react-icons/io5";
 import { Ri24HoursLine } from "react-icons/ri";
 const Achievements = () => {
+
+  const carouselRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollLeft -= 300;
+    }
+  };
+
+  const scrollRight = () => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollLeft += 300;
+    }
+  };
+
   return (
     <div className='bg-[#F5F8FD] min-h-screen pb-20 '>
 
@@ -59,15 +75,19 @@ const Achievements = () => {
 
 
       {/* Our expertise */}
-      <div data-aos="fade-up" className='md:py-14 lg:mx-52 flex flex-col md:flex-row justify-center items-center bg-[#1C75BC] rounded-lg flex-wrap'>
-        <div className='flex-1 ' data-aos="fade-up">
-          <h1 className='sm:text-2xl md:text-4xl font-bold float-end px-20 text-white py-6'>Our Expertise
-            <div className="border-b-2 border-gray-300 w-[80%]"></div>
-          </h1>
-
-        </div>
-        <div className='flex-1  ' data-aos="fade-up">
-          <div className="carousel carousel-center max-w-lg p-4 space-x-4  rounded-box">
+      <div data-aos="fade-up" className="md:py-14 lg:mx-52 flex flex-col md:flex-row justify-center items-center bg-[#1C75BC] rounded-lg flex-wrap">
+      <div className="flex-1" data-aos="fade-up">
+        <h1 className="sm:text-2xl md:text-4xl font-bold float-end px-20 text-white py-6">
+          Our Expertise
+          <div className="border-b-2 border-gray-300 w-[80%]"></div>
+        </h1>
+      </div>
+      <div className="flex-1" data-aos="fade-up">
+        <div className="carousel relative max-w-lg p-4 space-x-4 rounded-box">
+          <button className="absolute left-0 top-16 z-10 btn btn-sm btn-circle bg-[#FFFFFF]" onClick={scrollLeft}>
+            ❮
+          </button>
+          <div ref={carouselRef} className="carousel-center flex overflow-x-auto space-x-4">
             <div className="carousel-item">
               <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box h-36 w-36" />
             </div>
@@ -90,8 +110,12 @@ const Achievements = () => {
               <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="rounded-box h-36 w-36" />
             </div>
           </div>
+          <button className="absolute right-0 top-16 z-10 btn btn-sm btn-circle bg-[#FFFFFF]" onClick={scrollRight}>
+            ❯
+          </button>
         </div>
       </div>
+    </div>
     </div>
 
   )

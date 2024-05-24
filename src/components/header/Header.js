@@ -1,10 +1,10 @@
-'use client'
+&apos;use client&apos;
 import React, { useEffect } from "react";
-// import './Header.css'
+// import &apos;./Header.css&apos;
 import Image from "next/image";
 import logo1 from "../../assets/logo1.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from &apos;aos&apos;;
+import &apos;aos/dist/aos.css&apos;;
 
 import {
   FaFacebook,
@@ -206,11 +206,11 @@ const Header = () => {
           </div>
         </div>
         <div className="lg:flex  sm:block navbar-end donation-btn text-center pr-3 ">
-          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm" onClick={() => document.getElementById('my_modal_5').showModal()}>Donation</button>
+          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm" onClick={() => document.getElementById(&apos;my_modal_5&apos;).showModal()}>Donation</button>
         </div>
       </div>
       {/* Main menu end */}
-      {/* Open the modal using document.getElementById('ID').showModal() method */}
+      {/* Open the modal using document.getElementById(&apos;ID&apos;).showModal() method */}
 
       <dialog id="my_modal_5" className="modal w-full ">
         <div className="bg-white z-50 rounded-lg ">
@@ -223,7 +223,7 @@ const Header = () => {
             <div className="flex items-center gap-3"><input type="radio"  name="country" className="h-5 w-5 "/> <span>Foreign citizen</span></div>
           </div>
           <div className="px-8 py-2">
-            <h2 className="text-sm font-semibold ">Donor's details</h2>
+            <h2 className="text-sm font-semibold ">Donor&apos;s details</h2>
           </div>
           <div className="px-4">
             <form method="" className="max-w-sm mx-auto">
@@ -248,7 +248,7 @@ const Header = () => {
               </div>
               <div className="flex justify-center gap-2 mt-5">
                 <div><input type="checkbox" className="w-full bg-[#DDEAF58A] p-2 rounded-lg"/> </div>
-                <div className="text-xs">I have read through the website's Privacy Policy & Terms and Conditions to make a donation. It may be noted that if valid PAN details are not provided, we will not be able to issue Donation acknowledgement receipts and Form 10BE. Accordingly, the donor may not be able to claim tax exemption under section 80G of the Income Tax Act, 1961 in India.</div>
+                <div className="text-xs">I have read through the website&apos;s Privacy Policy & Terms and Conditions to make a donation. It may be noted that if valid PAN details are not provided, we will not be able to issue Donation acknowledgement receipts and Form 10BE. Accordingly, the donor may not be able to claim tax exemption under section 80G of the Income Tax Act, 1961 in India.</div>
               </div>
              <div className="mt-2 text-center ">
               <button className="bg-[#1C75BC] text-white py-2 w-full rounded-lg">Make Payment</button>
