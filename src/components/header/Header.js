@@ -18,7 +18,7 @@ const Header = () => {
     AOS.init({
       duration: 2000,
     });
-  },[])
+  }, [])
   return (
     <div className="sticky top-0 z-50 shadow-md">
       <div className="top-header hidden lg:flex justify-between items-center px-10 py-3">
@@ -194,7 +194,7 @@ const Header = () => {
               <a>Contact</a>
             </li>
           </div> */}
-          <div className="flex gap-2 px-4 items-center float-end">
+          <div className="flex gap-2 pl-10 items-center float-end">
             <div><a href="">Home</a></div><span className="text-xl">/</span>
             <div><a href="/about">About</a></div><span className="text-xl">/</span>
             <div><a href="">What we do</a></div><span className="text-xl">/</span>
@@ -205,11 +205,62 @@ const Header = () => {
             <div><a href="">Contact</a></div>
           </div>
         </div>
-        <div className="lg:flex  sm:block navbar-end donation-btn text-center px-3 ">
-          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm">Donation</button>
+        <div className="lg:flex  sm:block navbar-end donation-btn text-center pr-3 ">
+          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm" onClick={() => document.getElementById('my_modal_5').showModal()}>Donation</button>
         </div>
       </div>
       {/* Main menu end */}
+      {/* Open the modal using document.getElementById('ID').showModal() method */}
+
+      <dialog id="my_modal_5" className="modal w-full ">
+        <div className="bg-white z-50 rounded-lg ">
+          <div className="w-full bg-[#c4daec]  p-4 pt-6 rounded-t-lg">
+            <h3 className="font-bold px-14  text-2xl text-center text-[#1C75BC]">₹1500 One Time Donation</h3>
+          <p className="text-center">as Indian citizen</p>
+          </div>
+          <div className="flex justify-between gap-3 items-baseline mt-3 px-8 text-sm">
+            <div className="flex items-center gap-3"> <input type="radio" name="country" className="h-5 w-5 "/> <span>Indian citizen</span> </div>
+            <div className="flex items-center gap-3"><input type="radio"  name="country" className="h-5 w-5 "/> <span>Foreign citizen</span></div>
+          </div>
+          <div className="px-8 py-2">
+            <h2 className="text-sm font-semibold ">Donor's details</h2>
+          </div>
+          <div className="px-4">
+            <form method="" className="max-w-sm mx-auto">
+              <div className="flex justify-center gap-4 mb-3">
+                <input type="text" className="w-full text-sm bg-[#DDEAF58A] p-2 rounded-lg" placeholder="Full Name"/>
+                <input type="text" className="w-full text-sm bg-[#DDEAF58A] p-2 rounded-lg" placeholder="Email"/>
+              </div>
+              <div>
+                <input type="text" className="w-full text-sm mb-3 bg-[#DDEAF58A] p-2 rounded-lg" placeholder="Mobile Number"/>
+              </div>
+              <div>
+                <input type="text" className="w-full text-sm mb-3 bg-[#DDEAF58A] p-2 rounded-lg" placeholder="State"/>
+              </div>
+              <div>
+                <input type="text" className="w-full text-sm mb-3 bg-[#DDEAF58A] p-2 rounded-lg" placeholder="Address"/>
+              </div>
+              <div>
+                <input type="text" className="w-full text-sm mb-3 bg-[#DDEAF58A] p-2 rounded-lg" placeholder="Adhaar(Optional)"/>
+              </div>
+              <div>
+                <input type="text" className="w-full text-sm bg-[#DDEAF58A] p-2 rounded-lg" placeholder="PAN"/>
+              </div>
+              <div className="flex justify-center gap-2 mt-5">
+                <div><input type="checkbox" className="w-full bg-[#DDEAF58A] p-2 rounded-lg"/> </div>
+                <div className="text-xs">I have read through the website's Privacy Policy & Terms and Conditions to make a donation. It may be noted that if valid PAN details are not provided, we will not be able to issue Donation acknowledgement receipts and Form 10BE. Accordingly, the donor may not be able to claim tax exemption under section 80G of the Income Tax Act, 1961 in India.</div>
+              </div>
+             <div className="mt-2 text-center ">
+              <button className="bg-[#1C75BC] text-white py-2 w-full rounded-lg">Make Payment</button>
+              <button className="font-bold text-md text-[#1C75BC] btn-sm">Go Back</button>
+             </div>
+              
+            </form>
+            
+          </div>
+        </div>
+      </dialog>
+     
     </div>
   );
 };
