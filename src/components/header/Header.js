@@ -1,10 +1,10 @@
-&apos;use client&apos;
+'use client'
 import React, { useEffect } from "react";
-// import &apos;./Header.css&apos;
+// import './Header.css'
 import Image from "next/image";
 import logo1 from "../../assets/logo1.png";
-import AOS from &apos;aos&apos;;
-import &apos;aos/dist/aos.css&apos;;
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import {
   FaFacebook,
@@ -206,11 +206,11 @@ const Header = () => {
           </div>
         </div>
         <div className="lg:flex  sm:block navbar-end donation-btn text-center pr-3 ">
-          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm" onClick={() => document.getElementById(&apos;my_modal_5&apos;).showModal()}>Donation</button>
+          <button className="px-2  bg-blue-500 lg:px-9 text-white btn-sm" onClick={() => document.getElementById('my_modal_5').showModal()}>Donation</button>
         </div>
       </div>
       {/* Main menu end */}
-      {/* Open the modal using document.getElementById(&apos;ID&apos;).showModal() method */}
+      {/* Open the modal using document.getElementById('ID').showModal() method */}
 
       <dialog id="my_modal_5" className="modal w-full ">
         <div className="bg-white z-50 rounded-lg ">
