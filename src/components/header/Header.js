@@ -218,7 +218,7 @@ const Header = () => {
             <h3 className="font-bold px-14  text-2xl text-center text-[#1C75BC]">₹1500 One Time Donation</h3>
           <p className="text-center">as Indian citizen</p>
           </div>
-          <div className="flex justify-between gap-3 items-baseline mt-3 px-8 text-sm">
+          <div className="flex justify-around gap-3 items-baseline mt-3 px-8 text-sm">
             <div className="flex items-center gap-3"> <input type="radio" name="country" className="h-5 w-5 "/> <span>Indian citizen</span> </div>
             <div className="flex items-center gap-3"><input type="radio"  name="country" className="h-5 w-5 "/> <span>Foreign citizen</span></div>
           </div>
